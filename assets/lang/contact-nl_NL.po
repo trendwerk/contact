@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: \n"
-"POT-Creation-Date: 2015-03-20 15:23+0100\n"
-"PO-Revision-Date: 2015-03-20 15:26+0100\n"
+"POT-Creation-Date: 2015-03-20 15:34+0100\n"
+"PO-Revision-Date: 2015-03-20 15:35+0100\n"
 "Last-Translator: Harold <harold@trendwerk.nl>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -13,106 +13,172 @@ msgstr ""
 "X-Poedit-Basepath: ../..\n"
 "X-Poedit-SearchPath-0: .\n"
 
-#: class-tp-contact-information.php:39
+#: class-tp-contact-information.php:42
 msgid "General settings"
 msgstr "Algemene instellingen"
 
-#: class-tp-contact-information.php:41
+#: class-tp-contact-information.php:44
 msgid "Sitename"
 msgstr "Sitenaam"
 
-#: class-tp-contact-information.php:48
+#: class-tp-contact-information.php:51
 msgid "Description"
 msgstr "Omschrijving"
 
-#: class-tp-contact-information.php:58
+#: class-tp-contact-information.php:61 assets/inc/class-tp-contact.php:18
 msgid "Contact"
 msgstr "Contact"
 
-#: class-tp-contact-information.php:60
+#: class-tp-contact-information.php:63
 msgid "Company name"
 msgstr "Bedrijfsnaam"
 
-#: class-tp-contact-information.php:66
+#: class-tp-contact-information.php:69
 msgid "Address"
 msgstr "Adres"
 
-#: class-tp-contact-information.php:72
+#: class-tp-contact-information.php:75
 msgid "Postal code"
 msgstr "Postcode"
 
-#: class-tp-contact-information.php:78
+#: class-tp-contact-information.php:81
 msgid "City"
 msgstr "Stad"
 
-#: class-tp-contact-information.php:84
+#: class-tp-contact-information.php:87
 msgid "Country"
 msgstr "Land"
 
-#: class-tp-contact-information.php:90
+#: class-tp-contact-information.php:93 assets/inc/class-tp-contact.php:72
 msgid "E-mail"
 msgstr "E-mailadres"
 
-#: class-tp-contact-information.php:96
+#: class-tp-contact-information.php:99 assets/inc/class-tp-contact.php:75
 msgid "Telephone"
 msgstr "Telefoonnummer"
 
-#: class-tp-contact-information.php:102
+#: class-tp-contact-information.php:105 assets/inc/class-tp-contact.php:78
 msgid "Fax"
 msgstr "Fax"
 
-#: class-tp-contact-information.php:111
+#: class-tp-contact-information.php:114
 msgid "Registration numbers & financial"
 msgstr "Registratienummers & financieel"
 
-#: class-tp-contact-information.php:113
+#: class-tp-contact-information.php:116
 msgid "CC No."
 msgstr "KvK nr."
 
-#: class-tp-contact-information.php:119
+#: class-tp-contact-information.php:122
 msgid "VAT No."
 msgstr "BTW nr."
 
-#: class-tp-contact-information.php:125
+#: class-tp-contact-information.php:128
 msgid "Bank name"
 msgstr "Bank naam"
 
-#: class-tp-contact-information.php:131
+#: class-tp-contact-information.php:134
 msgid "Bank No."
 msgstr "Bank nr."
 
-#: class-tp-contact-information.php:140
+#: class-tp-contact-information.php:143 assets/inc/class-tp-social.php:11
 msgid "Social media links"
 msgstr "Sociale media links"
 
-#: class-tp-contact-information.php:142
+#: class-tp-contact-information.php:145
 msgid "Twitter URL"
 msgstr "Twitter URL"
 
-#: class-tp-contact-information.php:148
+#: class-tp-contact-information.php:151
 msgid "Facebook URL"
 msgstr "Facebook URL"
 
-#: class-tp-contact-information.php:154
+#: class-tp-contact-information.php:157
 msgid "LinkedIn URL"
 msgstr "LinkedIn URL"
 
-#: class-tp-contact-information.php:160
+#: class-tp-contact-information.php:163
 msgid "Google Plus URL"
 msgstr "Google Plus URL"
 
-#: class-tp-contact-information.php:166
+#: class-tp-contact-information.php:169
 msgid "YouTube URL"
 msgstr "YouTube URL"
 
-#: class-tp-contact-information.php:172
+#: class-tp-contact-information.php:175
 msgid "Newsletter / mailto link"
 msgstr "Nieuwsbrief / mailto link"
 
-#: class-tp-contact-information.php:179
+#: class-tp-contact-information.php:182
 msgid "Show RSS feed in the social media widget"
 msgstr "Toon RSS feed in de sociale media widget"
 
-#: class-tp-contact-information.php:231 class-tp-contact-information.php:243
+#: class-tp-contact-information.php:234 class-tp-contact-information.php:246
+#: assets/inc/class-tp-contact.php:11
 msgid "Contact information"
 msgstr "Contactgegevens"
+
+#: assets/inc/class-tp-contact.php:12
+msgid "Shows the specified contact information"
+msgstr "Toont de ingestelde contactgegevens"
+
+#: assets/inc/class-tp-contact.php:26 assets/inc/class-tp-social.php:26
+msgid "Title"
+msgstr "Titel"
+
+#: assets/inc/class-tp-contact.php:31 assets/inc/class-tp-social.php:31
+#, php-format
+msgid ""
+"Change the contents of this widget on the <a href=\"%1$s\">contact "
+"information</a> page."
+msgstr ""
+"De inhoud van deze widget kan aangepast worden bij de <a href=\"%1$s"
+"\">contactgegevens</a>."
+
+#: assets/inc/class-tp-contact.php:85
+msgid "CC No"
+msgstr "KvK nr"
+
+#: assets/inc/class-tp-contact.php:88
+msgid "VAT No"
+msgstr "BTW nr"
+
+#: assets/inc/class-tp-contact.php:91
+msgid "Bank"
+msgstr "Bank"
+
+#: assets/inc/class-tp-social.php:12
+msgid "Shows links to specified social network profiles"
+msgstr "Toont links naar ingestelde sociale netwerk profielen"
+
+#: assets/inc/class-tp-social.php:18
+msgid "Social"
+msgstr "Sociaal"
+
+#: assets/inc/class-tp-social.php:51
+msgid "Follow us on Twitter"
+msgstr "Volg ons op Twitter"
+
+#: assets/inc/class-tp-social.php:59
+msgid "Like our Facebook page"
+msgstr "Like onze Facebook pagina"
+
+#: assets/inc/class-tp-social.php:67
+msgid "Add us on Google+"
+msgstr "Voeg ons toe op Google+"
+
+#: assets/inc/class-tp-social.php:75
+msgid "Connect with us on LinkedIn"
+msgstr "Connect met ons op LinkedIn"
+
+#: assets/inc/class-tp-social.php:83
+msgid "View our YouTube channel"
+msgstr "Bekijk ons YouTube kanaal"
+
+#: assets/inc/class-tp-social.php:91
+msgid "E-mail newsletter"
+msgstr "E-mail nieuwsbrief"
+
+#: assets/inc/class-tp-social.php:99
+msgid "Subscribe via RSS"
+msgstr "Inschrijven via RSS"
