@@ -110,4 +110,6 @@ class TP_Social extends WP_Widget {
 	}
 }
 
-add_action( 'widgets_init', create_function( '', 'return register_widget( "TP_Social" );' ) );
+add_action( 'widgets_init', function() {
+	return register_widget( 'TP_Social' );
+} );
