@@ -146,31 +146,31 @@ class TP_Contact_Information {
 			'label_for' => 'tp-twitter',
 			'class' => 'regular-text',
 		) );
-		register_setting( 'tp-information', 'tp-twitter', 'tp_maybe_add_http' );
+		register_setting( 'tp-information', 'tp-twitter' );
 		
 		add_settings_field( 'tp-facebook', __( 'Facebook URL', 'contact' ), array( $this, 'show_text_field' ), 'tp-information', 'tp-social', array(
 			'label_for' => 'tp-facebook',
 			'class' => 'regular-text',
 		) );
-		register_setting( 'tp-information', 'tp-facebook', 'tp_maybe_add_http' );
+		register_setting( 'tp-information', 'tp-facebook' );
 		
 		add_settings_field( 'tp-linkedin', __( 'LinkedIn URL', 'contact' ), array( $this, 'show_text_field' ), 'tp-information', 'tp-social', array(
 			'label_for' => 'tp-linkedin',
 			'class' => 'regular-text',
 		) );
-		register_setting( 'tp-information', 'tp-linkedin', 'tp_maybe_add_http');
+		register_setting( 'tp-information', 'tp-linkedin');
 		
 		add_settings_field( 'tp-googleplus', __( 'Google Plus URL', 'contact' ), array( $this, 'show_text_field' ), 'tp-information', 'tp-social', array(
 			'label_for' => 'tp-googleplus',
 			'class' => 'regular-text',
 		) );
-		register_setting( 'tp-information', 'tp-googleplus', 'tp_maybe_add_http' );
+		register_setting( 'tp-information', 'tp-googleplus' );
 		
 		add_settings_field( 'tp-youtube', __( 'YouTube URL', 'contact' ), array( $this, 'show_text_field' ), 'tp-information', 'tp-social', array(
 			'label_for' => 'tp-youtube',
 			'class' => 'regular-text',
 		) );
-		register_setting( 'tp-information', 'tp-youtube', 'tp_maybe_add_http' );
+		register_setting( 'tp-information', 'tp-youtube' );
 		
 		add_settings_field( 'tp-newsletter', __( 'Newsletter / mailto link', 'contact' ), array( $this, 'show_text_field' ), 'tp-information', 'tp-social', array(
 			'label_for' => 'tp-newsletter',
