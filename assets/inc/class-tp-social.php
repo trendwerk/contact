@@ -8,7 +8,7 @@
 class TP_Social extends WP_Widget {
 
 	function __construct() {
-		$this->WP_Widget( 'TP_Social', __( 'Social media links', 'contact' ), array(
+		parent::__construct( 'TP_Social', __( 'Social media links', 'contact' ), array(
 			'description' => __( 'Shows links to specified social network profiles', 'contact' ),
 		) );
 	}

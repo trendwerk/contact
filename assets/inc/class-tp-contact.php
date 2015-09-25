@@ -8,7 +8,7 @@
 class TP_Contact extends WP_Widget {
 
 	function __construct() {
-		$this->WP_Widget( 'TP_Contact', __( 'Contact information', 'contact' ), array(
+		parent::__construct( 'TP_Contact', __( 'Contact information', 'contact' ), array(
 			'description' => __( 'Shows the specified contact information', 'contact' ),
 		) );
 	}
